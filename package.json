@@ -14,6 +14,7 @@
   "sasslintConfig": ".sasslintrc.json",
   "author": "Aleksandr Holoven",
   "license": "ISC",
+  "homepage": "https://haleksandr.github.io/layout-internship/",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "browserslist": "^4.16.3",
