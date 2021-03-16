@@ -1,0 +1,39 @@
+select {
+  font-size: 18px;
+  padding: 20px 20px 20px 40px;
+  width: 250px;
+  color: #35373b;
+  appearance: none;
+  border: none;
+  background: url('./../assets/icon-location.svg') no-repeat 15px 23px #fcfcfc;
+  background-size: auto 25%;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: gray;
+  background: url('./../assets/icon-title-change.svg') no-repeat 15px 25px;
+  background-size: auto 20%;
+  height: 100%;
+  width: 3em;
+  pointer-events: none;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.custom-arrow::before {
+  background-image: url('./../assets/icon-title-change.svg') no-repeat 10px 10px;
+}
